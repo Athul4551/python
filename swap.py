@@ -1,0 +1,9 @@
+a=5
+b=7
+print(a)
+print(b)
+t=a
+a=b
+b=t
+print("a=",a)
+print("b=",b)

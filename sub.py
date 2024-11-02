@@ -1,0 +1,12 @@
+b=input("enter b")
+c=input("enter c")
+b=int(b)
+c=int(c)
+s=b-c
+print("b-c=",s)
+s=b+c
+print("b+c=",s)
+s=b*c
+print("b*c=",s)
+s=b/c
+print("b/c=",s)
