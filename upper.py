@@ -26,13 +26,13 @@ print(b)
 # c =txt.endswith(b)
 # x = txt.replace(b,c)
 # print(x)
-txt =input("enter a sentence")
-x = txt.split()
-print(x)
-y ="".join(x)
-print(y)
-for i in y:
-  print(i)
+# txt =input("enter a sentence")
+# x = txt.split()
+# print(x)
+# y ="".join(x)
+# print(y)
+# for i in y:
+#   print(i)
 # txt =input("enter a sentence")
 # x = txt.split()
 # print(x)
@@ -48,5 +48,13 @@ for i in y:
 #         break
 # else:
 #     print("does not exist")    
-     
+a=input("enter charactor")
+b=""
+for i in a:
+  if i.isdigit():
+      pass 
+  else:
+    b=b+i
+print(b)    
+       
 
