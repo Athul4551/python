@@ -23,9 +23,7 @@ while d=="y":
     else:
         print("invalid operator")
     # print("do u want to continue y/n")
-    d=input("do u want to continue y/n")    
-           
-            
+    d=input("do u want to continue y/n")           
 # while a or b ==0:
     
     
