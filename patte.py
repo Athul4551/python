@@ -82,12 +82,25 @@
 #         print(a-j,end=" ")
 #     print()
 #     a+=1
-a=65
-for i in range(3):
-    for j in range(3):
-        print(chr(a+j),end=" ")
-    print()
-    for j in range(3):
-         print(j+1,end=" ")
-    print()     
+# a=65
+# for i in range(3):
+#     for j in range(3):
+#         print(chr(a+j),end=" ")
+#     print()
+#     for j in range(3):
+#          print(j+1,end=" ")
+#     print()     
+# a=65
+# b=67
+# for i in range(3):
+#     for j in range(3):
+#         print(chr(a+j),end=" ")
+#     print()
+#     for j in range(3):
+#          print(chr(b-j),end=" ")
+#     print()    
+# a=[1,2,3]
+# b=a
+# b.append(4)
+# print(a) 
     
