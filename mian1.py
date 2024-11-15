@@ -1,0 +1,2 @@
+from mian import *
+hello()
