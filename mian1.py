@@ -1,4 +1,3 @@
-from mian import *
-hello()
+import mian 
 r=int(input("enter radius"))
-circle(r)
+area=mian.circle(r)
