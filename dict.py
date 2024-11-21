@@ -25,3 +25,23 @@ am.update({"color":"red"})
 print(am) 
 am["num"]=1
 print(am)   
+# am.pop("color")
+# print(am)
+# am.popitem()
+# print(am)
+del am["color"]
+print(am)
+# del am
+# print(am)
+# am.clear()
+# print(am)
+# ma=am.copy()
+# print(ma)
+# mmm=dict(ma)
+# print(mmm)
+child1={"name":"athul","email":"ashusgwhys5@"}
+child2={"name":"akash","email":"ahgvfxv3fvxv4v4@"}
+# print(arr)
+# print(arr["child2"]["name"])
+zz={"child1":child1,"child2":child2}
+print(zz)
