@@ -1,20 +1,14 @@
-def add():
-    a=int(input("enter a number"))
-    b=int(input("enter a number"))
-    print(a+b)
-def sub():
-    a=int(input("enter a number"))
-    b=int(input("enter a number"))
-    print(a-b)
-def div():
-    a=int(input("enter a number"))
-    b=int(input("enter a number"))
-    print(a/b)
-def mul():
-    a=int(input("enter a number"))
-    b=int(input("enter a number"))
+def add(*x):
+    print(x[0]+x[1])
+def sub(**x):
+    print(x["a"]-x["b"])
+def div(a,b):
+    return(a/b)
+def mul(a,b):
     print(a*b)
 d="y"
+a=int(input("enter a number"))
+b=int(input("enter a number"))
 while d=="y":
     print('''
             1=addition
@@ -23,13 +17,13 @@ while d=="y":
             4=division''')
     c=int(input("enter the operation"))
     if c==1:
-        add()
+        add(a,b)
     elif c==2:
-        sub()
+        sub(a=a,b=b)
     elif c==3:
-        mul()
+        mul(a,b)
     elif c==4:
-        div()
+       print(div(a,b))
     else:
      print("invalid operator")
     # print("do u want to continue y/n")
