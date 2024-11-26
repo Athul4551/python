@@ -6,9 +6,9 @@ while n>0:
     s=n%10
     d=d*10+s
     n=n//10
-# print(d)    
-if(e==d):
-    print("is palindrom")
-else:
-    print("not palindrom")       
+print(d)    
+# if(e==d):
+#     print("is palindrom")
+# else:
+#     print("not palindrom")       
 
