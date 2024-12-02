@@ -25,5 +25,5 @@ a.pop(0)
 print(a)
 a.clear()
 print(a)
-del a
-print(a)
+# del a
+# print(a)
