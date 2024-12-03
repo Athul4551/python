@@ -18,7 +18,7 @@ class book():
             print("thanku")
         elif d==3 and co3>0:
             co3=co3-1
-            print("thanku")   
+             print("thanku")   
         else:
             print("exit") 
         # self.copy=self.copy-1
@@ -57,7 +57,6 @@ while d=="y":
         bank1.check()   
     else:
         print("exit") 
-    d=input("do u want continu y/n")                               
-        
+    d=input("do u want continu y/n")                   
         
     
