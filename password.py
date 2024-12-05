@@ -13,5 +13,5 @@ if re.findall("[a-zA-Z]",s)==True:
             if a>8:
                 print("powerfull password")
 else:
-    print("week password")                
+    print("weak password")                
             
